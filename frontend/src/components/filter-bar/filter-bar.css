@@ -1,0 +1,17 @@
+.filter-bar {
+    width: 80%;
+    margin: 2em auto;
+    display: flex;
+}
+
+.search-bar {
+    display: inline-block;
+}
+
+.select-input {
+    margin-left: auto;
+}
+
+.add-button {
+    margin-left: 10px !important;
+}

@@ -1,0 +1,33 @@
+.movie-item {
+    cursor: pointer;
+}
+
+div.item {
+    background-color: white;
+    border-radius: 5px;
+    border: black solid 1px;
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+div.item > div.ui.tiny.image.image-content {
+    display: inline-block;
+    width: 25%;
+}
+
+.image-content > img {
+    width: 100px;
+}
+
+.info-movie {
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+}
+
+.info-movie > .header {
+    font-weight: bold;
+    font-size: x-large;
+}

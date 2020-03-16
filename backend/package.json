@@ -1,0 +1,19 @@
+{
+  "name": "helmik-backend",
+  "version": "1.0.0",
+  "description": "movie project",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon ./app/* ./app/index.js"
+  },
+  "author": "andrea",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "firebase": "^7.9.3",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
